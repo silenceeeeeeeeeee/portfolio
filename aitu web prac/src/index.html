@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">MyPortfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="about" class="text-center py-5">
+    <div class="container">  
+        <h1>Dyussembekov Damir</h1>
+        <p class="subtitle">Data analyst — Want to be best in the field.</p>
+    </div>
+</section>
+
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+
+        <div class="card">
+            <h3>Sales Dashboard (Power BI)</h3>
+            <p>Built an interactive sales dashboard using Power BI to analyze monthly performance, top products, and regional trends.</p>
+            <ul>
+                <li>Connected to Excel and SQL data sources</li>
+                <li>Used DAX for KPIs like YoY growth</li>
+                <li>Filterable by category, region, and time</li>
+            </ul>
+            <p><strong>Tech used:</strong> Power BI, Excel, SQL</p>
+        </div>
+
+        <div class="card">
+            <h3>Customer Segmentation (Python)</h3>
+            <p>Performed customer segmentation using clustering techniques to help target marketing efforts more effectively.</p>
+            <ul>
+                <li>Cleaned and preprocessed customer data</li>
+                <li>Used K-Means to identify 4 customer clusters</li>
+                <li>Visualized results with Seaborn</li>
+            </ul>
+            <p><strong>Tech used:</strong> Python (Pandas, Scikit-learn, Matplotlib)</p>
+        </div>
+
+        <div class="card">
+            <h3>Movie Revenue Prediction</h3>
+            <p>Predicted box office revenue using machine learning based on features like budget, genre, cast popularity, and release month.</p>
+            <ul>
+                <li>Explored dataset of 5,000+ movies</li>
+                <li>Engineered features like genre dummies</li>
+                <li>Compared models: Linear Regression, Random Forest, XGBoost</li>
+            </ul>
+            <p><strong>Tech used:</strong> Python, Scikit-learn, XGBoost</p>
+        </div>
+
+    </div>
+</section>
+
+   
+
+<section id="abilities" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Abilities</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <ul>
+                    <li>Data cleaning and preprocessing using Python (Pandas, NumPy)</li>
+                    <li>Data visualization with Power BI, Matplotlib, and Seaborn</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>SQL for querying and analyzing structured data</li>
+                    <li>Basic machine learning with Scikit-learn</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>Problem-solving mindset and attention to detail</li>
+                    <li>Strong communication and team collaboration skills</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="contact" class="py-5 text-center">
+    <h3>Contact</h3>
+    <div class="icons">
+        <a href="https://github.com/"><i class="bi bi-github"></i></a>
+        <a href="https://ru.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://mail.google.com"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+    <p>2025</p>
+</footer>
+
+</body>
+</html>
